@@ -4,7 +4,7 @@
 #include "Pikachu.h"
 #include "Gatomon.h"
 #include "Pokemon.h"
-
+using namespace std;
 int main() {
 	VirtualPet myLittleBoringPet("Basic Pet");
 	myLittleBoringPet.feed();

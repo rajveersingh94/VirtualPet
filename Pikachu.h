@@ -10,7 +10,7 @@ private:
 public:
     Pikachu(const string& name, const string& species, int health, int electricPower);
     void useElectricShock();
-    int getElectric() const;
+    int getElectricPower() const;
 };
 
 #endif

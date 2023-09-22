@@ -60,7 +60,7 @@ int main() {
     cout << "Element: " << gatomon.getElement() << endl;
     cout << "Happiness: " << gatomon.getHappiness() << endl;
     cout << "Hunger: " << gatomon.getHunger() << endl;
-    cout << "Cat Claw Sharpness: " << gatomon.getCatClawSharpness() << endl;
+    cout << "Cat Claw Sharpness: " << gatomon.useCatClawAttack() << endl;
 
 	return 0;
 }

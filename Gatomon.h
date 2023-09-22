@@ -9,6 +9,7 @@ private:
 
 public:
     Gatomon(const string& name, const string& element, int happiness, int hunger, int catClawSharpness);
-    void useCatClawAttack();
+    void  useCatClawAttack();
+    int getCatClawSharpness()const;
 };
 #endif

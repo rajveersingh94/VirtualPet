@@ -7,3 +7,8 @@ void Gatomon::useCatClawAttack() {
     cout << getName() << " uses Cat Claw Attack!" << endl;
     // Implement the behavior of using a Cat Claw Attack here.
 }
+
+int getCatClawSharpness()const{
+	return catClawSharpness;
+}
+

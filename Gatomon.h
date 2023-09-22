@@ -11,3 +11,4 @@ public:
     Gatomon(const string& name, const string& element, int happiness, int hunger, int catClawSharpness);
     void useCatClawAttack();
 };
+#endif

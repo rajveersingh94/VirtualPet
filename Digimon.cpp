@@ -7,3 +7,6 @@ void Digimon::useSpecialAttack() {
     cout << getName() << " uses Special Attack!" << endl;
     // Implement the behavior of using a Special Attack here.
 }
+string Digimon::getElement() const {
+	return element;
+}

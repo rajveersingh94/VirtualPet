@@ -11,6 +11,7 @@ private:
 public:
     Digimon(const string& name, int happiness, int hunger, const string& element);
     void useSpecialAttack();
+    string getElement()const;
 };
 
 #endif

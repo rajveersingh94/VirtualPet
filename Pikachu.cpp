@@ -5,6 +5,10 @@ Pikachu::Pikachu(const string& name, const string& species, int health, int Elec
 	    electricPower = ElectricPower;
     }
 
+int Pikachu::getElectric() const {
+	return electricPower;
+}
+
 void Pikachu::useElectricShock() {
     cout << getName() << " uses Electric Shock!" << endl;
     // Implement the behavior of using Electric Shock here.
